@@ -25,6 +25,9 @@ This type of modeling directly supports supply chain optimization: knowing when 
 
 **Subset used:** FD001 (single operating condition, single fault mode)
 
+## Data
+Download the CMAPSS FD001 dataset from the [NASA Prognostics Data Repository](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/) and place the files in a `CMAPSSdata/` folder before running the script.
+
 | | Count |
 |---|---|
 | Training engines | 100 |
@@ -117,7 +120,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 python rul_analysis.py
 ```
 
-# Run `python rul_analysis.py` to regenerate all plots in the `plots/` directory.
+## Run `python rul_analysis.py` to regenerate all plots in the `plots/` directory.
 ---
 
 ## Key Takeaways & Supply Chain Relevance
